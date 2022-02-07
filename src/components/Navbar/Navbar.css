@@ -16,7 +16,8 @@
 
 .app__navbar-logo p {
     width: 150px;
-    color: white;
+    color: var(--color-golden);
+    font-family: var(--font-base);
     font-weight: 800;
     font-size: 22px;
     
@@ -107,7 +108,7 @@
 }
 
 @media screen and (min-width: 2000px) {
-    .app__navbar-logo img {
+    .app__navbar-logo p {
         width: 210px;
     }
 }
@@ -131,7 +132,7 @@
         display: none;
     }
 
-    .app__navbar-logo img {
+    .app__navbar-logo p {
         width: 110px;
     }
 }
