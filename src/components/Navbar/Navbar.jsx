@@ -1,6 +1,7 @@
 import React from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
+import { Link } from 'react-router-dom';
 import images from '../../constants/images';
 import './Navbar.css';
 
@@ -19,7 +20,7 @@ const Navbar = () => {
         <li className="p__opensans"><a href="#contact">Contact</a></li>
       </ul>
       <div className="app__navbar-login">
-        <a href="#login" className="p__opensans">Log In / Registration</a>
+        <Link to="/login" className="p__opensans">Log In / Registration</Link>
         <div />
         <a href="/" className="p__opensans">Book Table</a>
       </div>
